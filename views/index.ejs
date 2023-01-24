@@ -53,10 +53,11 @@
           <h1 class="ps-center">Nuentro Menu</h1>
           <br />
       
-          <% products.forEach(({name,description,price}) => { %>
-             <h4><%= name %></h4>
+          <% products.forEach(({id,name,description,price}) => { %>
+            <a href="/detail/<%= id %>"> <h4><%= name %></h4></a>
+            
               <p class="ps-text-grey">
-                <%= description %>  U$S <b><%= price %></b>
+                <%= description ? description : 'Plato típico' %>  U$S <b><%= price %></b>
               </p>
               <br />
           <% }) %>

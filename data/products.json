@@ -28,6 +28,12 @@
         "description" : "Espárragos blancos con vinagreta de verduras y jamón ibérico",
         "price" :  37.50,
         "image": "esparragos.png"
-
+    },
+    {
+        "id": 5,
+        "name" : "Milanesa a la napolitana",
+        "description" : null,
+        "price" :  17.50,
+        "image": null
     }
 ]
